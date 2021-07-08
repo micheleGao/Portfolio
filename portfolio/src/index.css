@@ -13,6 +13,7 @@ body{
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   font-size: 25px;
+  background-color: black;
 }
 nav a:hover{
   position:sticky;
@@ -22,11 +23,12 @@ nav a:hover{
   border-style: double;
   text-align:center;
   font-size: 40px; 
+  margin-bottom: 30px;
 }
 
 .projects-container{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
   flex-basis: 33%;
   flex-wrap: wrap;
   margin: 0;
@@ -39,15 +41,11 @@ nav a:hover{
   flex-wrap: wrap;
   flex-direction:row;
   align-items: center;
-  justify-content:flex-start;
 }
-.button{
-  display:flex;
-  margin:auto;
-  align-items: center;
-  border-radius: 30%;
-  font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.photo{
+  height: 300px;
+  width:300px;
+  border-radius: 70%;
 }
+
 

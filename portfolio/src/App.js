@@ -14,6 +14,7 @@ function App() {
       </nav>
       <main>
           <Switch>
+            <Route path="#/" render={() => <AboutMe />} />
             <Route path="/AboutMe" render={() => <AboutMe />} />
             <Route path="/Contact" render={() => <Contact  />} />
             <Route path="/Featured" render={() => <Featured />} />

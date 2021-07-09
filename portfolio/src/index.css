@@ -13,7 +13,7 @@ body{
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   font-size: 25px;
-  background-color: black;
+  background-color: ;
 }
 nav a:hover{
   position:sticky;
@@ -40,12 +40,26 @@ nav a:hover{
   margin: auto;
   flex-wrap: wrap;
   flex-direction:row;
-  align-items: center;
+  margin-top: 5rem;
+  border-radius: 20%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
 }
+.projects img{
+  border-radius: 20%;
+}
+
 .photo{
   height: 300px;
   width:300px;
   border-radius: 70%;
 }
-
-
+.contact-container{
+  display:flex;
+  justify-content:space-around;
+  flex-basis: 33%;
+  flex-wrap: wrap;
+  margin: 0;
+  flex-direction: row;
+  margin-top: 6rem;
+}

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export default function Navigation() {
     return (
         <div>
-            <Nav justify variant="tabs" defaultActiveKey="#/">
+            <Nav justify variant="tabs">
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/AboutMe"> About Me</Nav.Link>
+                    <Nav.Link as={Link} to="/"> About Me</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link as={Link} to="/Featured">Featured Work</Nav.Link>

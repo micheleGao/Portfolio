@@ -1,7 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Luckiest+Guy&family=Monoton&display=swap');
 *{ box-sizing:border-box}
 
 *:before,
@@ -9,20 +10,21 @@
 	box-sizing:inherit;
 }
 body{
-  font-family: 'Playball', cursive, sans-serif !important;
+  font-family: 'Inconsolata', monospace;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   font-size: 25px;
-  background-color: ;
+  color:navy
 }
 nav a:hover{
   position:sticky;
   top:0;
+  font-family: 'Ultra', serif;
   background-color:ghostwhite;
   z-index: 1;
   border-style: double;
   text-align:center;
-  font-size: 40px; 
+  background-color: hotpink;
   margin-bottom: 30px;
 }
 ul{
@@ -50,18 +52,27 @@ ul{
   flex-direction:row;
   margin-top: 5rem;
   border-radius: 20%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Inconsolata', monospace; */
   font-size: 15px;
 }
 .projects img{
   border-radius: 20%;
 }
+.projects:hover{
+  transform: scale(1.2);
+  font-style: none; 
+}
+.projects a{
+  font-style: none;
+}
 
 .photo{
-  margin-top: 4rem;
-  height: 300px;
-  width:300px;
+  margin-top: 5rem;
+  height: 400px;
+  width:400px;
   border-radius: 70%;
+  position: sticky;
 }
 .contact-container{
   display:flex;
@@ -70,5 +81,14 @@ ul{
   flex-wrap: wrap;
   margin: 0;
   flex-direction: row;
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
+.name{
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  
+}
+.title{
+  font-size:50px;
+}
+

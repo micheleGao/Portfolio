@@ -15,7 +15,7 @@ export default function Contact() {
                     </Card>
                 </a>
                 <a href="https://gifted-perlman-16f6e4.netlify.app">
-                    <Card className="projects" style={{ width: '20rem' }} key={2}>
+                    <Card className="projects" style={{ width: '22rem' }} key={2}>
                         <Card.Body>
                             <Card.Img variant="top" src="https://user-images.githubusercontent.com/72947727/124197702-23c89280-da9d-11eb-8bad-7743cba306c5.png" alt='' width="200"/>
                             <Card.Text className="card-font">
@@ -25,7 +25,7 @@ export default function Contact() {
                     </Card>
                 </a>
                 <a href ="https://artgallerymg.netlify.app">
-                    <Card className="projects" style={{ width: '25rem' }} key={2}>
+                    <Card className="projects" style={{ width: '22rem' }} key={2}>
                         <Card.Body>
                             <Card.Img variant="top" src="https://user-images.githubusercontent.com/72947727/124680970-88b52b80-de95-11eb-9662-9512c37a3faf.png" alt='' width="200"/>
                             <Card.Text className="card-font">

@@ -1,7 +1,8 @@
 import { Card } from "react-bootstrap";
 import { useState } from 'react'
-import { Document, Page } from 'react-pdf';
-// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+// import { Document, Page } from 'react-pdf';
+import pdf from '../SoftwareResume.pdf';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 // import { Document, Page } from 'react-pdf/dist/esm/entry.parcel';
 
 
@@ -13,7 +14,7 @@ export default function Contact() {
     function onDocumentLoadSuccess({ numPages }) {
         setNumPages(numPages);
     }
-
+    console.log(pdf)
     return (
         <div classname="contained-conact-sheet">
             <div className="contact-container">
@@ -25,15 +26,16 @@ export default function Contact() {
                         </Card.Text>
                         <Card.Link href="https://github.com/micheleGao"><h2>Github</h2></Card.Link>
                         <Card.Link href="https://app.netlify.com/teams/michelegao"><h2>Netlify</h2></Card.Link>
-                        {/* <div>
+                        <div>
                             <Document
-                                file="SoftwareResume.pdf"
+                                file={pdf}
                                 onLoadSuccess={onDocumentLoadSuccess}
                             >
-                                <Page pageNumber={pageNumber} />
+                                {/* <Page pageNumber={pageNumber} /> */}
                             </Document>
-                            <p>Page {pageNumber} of {numPages}</p>
-                        </div> */}
+                            {/* <p>Page {pageNumber} of {numPages}</p> */}
+                        </div>
+                        
                         <Card.Link href="https://docs.google.com/document/d/e/2PACX-1vQHNKpVWU4y82gFFJMU1UfOtSYWHMaUXc8eXQQ87sXqHqRftz2dlmbbwczWbyTzHxLq6f27wAWehSpz/pub" target="_blank"><h2>Resume</h2></Card.Link>
                 </Card.Body>
             </Card>

@@ -34,6 +34,26 @@ export default function Contact() {
                         </Card.Body>
                     </Card>
                 </a>
+                <a href ="https://agoraforum.netlify.app/">
+                    <Card className="projects" style={{ width: '22rem' }} key={2}>
+                        <Card.Body>
+                            <Card.Img variant="top" src="https://user-images.githubusercontent.com/72947727/126333161-fcfcbdd9-687f-4485-ad14-f4ccc305651b.png" alt='' width="100"/>
+                            <Card.Text className="card-font">
+                            A collaborative team project - A forum site, you can add a forum, post to a forum, and edit your post. Full-Stack application with Mongoose, Node js, a deployed backend with heroku. 
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </a>
+                <a href ="https://gettingjiggywithit.netlify.app/">
+                    <Card className="projects" style={{ width: '22rem' }} key={2}>
+                        <Card.Body>
+                            <Card.Img variant="top" src="https://user-images.githubusercontent.com/72947727/128905482-1374f389-5d75-47eb-9bf9-871b937a5999.png" alt='' width="100"/>
+                            <Card.Text className="card-font">
+                            A music app created to listen to streamed music from youtube. Add a review to your favorite artists, and listen to their songs available on the site! A Full-Stack application using Django Rest Frame, Python, React, JS, and Bootsrap.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </a>
             </div>
         </div>
     )

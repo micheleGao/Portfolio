@@ -25,8 +25,8 @@ export default function Contact() {
                         <Card.Text>
                             <h2>Email: Michele.gao.shellies@icloud.com</h2>
                         </Card.Text>
-                        <Card.Link href="https://github.com/micheleGao"><h2>Github</h2></Card.Link>
-                        <Card.Link href="https://app.netlify.com/teams/michelegao"><h2>Netlify</h2></Card.Link>
+                        <Card.Link href="https://github.com/micheleGao" target="_blank"><h2>Github</h2></Card.Link>
+                        <Card.Link href="https://app.netlify.com/teams/michelegao" target="_blank"><h2>Netlify</h2></Card.Link>
                         {/* <div>
                             <Document
                                 file={pdf}
